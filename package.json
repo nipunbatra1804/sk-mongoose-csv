@@ -1,0 +1,35 @@
+{
+  "name": "mongoose-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:db": "mongod --dbpath ~/data/db",
+    "start:dev": "nodemon server.js",
+    "dev:db": "npm run start:db & npm run start:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nipunbatra1804/sk-mongoose-csv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nipunbatra1804/sk-mongoose-csv/issues"
+  },
+  "homepage": "https://github.com/nipunbatra1804/sk-mongoose-csv#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "fast-csv": "^2.4.1",
+    "json2csv": "^4.4.1",
+    "mongoose": "^5.4.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
+
+
